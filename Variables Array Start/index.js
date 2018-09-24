@@ -1,26 +1,17 @@
-console.log('Hello World');
-//Create 10 variables about yourself
-let YaqubIbrahim = {
-  firstName : "Yaqub",
-  lastName : "Ibrahim",
-  age : 16,
-  ageAfraid : 29,
-  hair : "afro",
-  male : true,
-  confidence : null,
+//Hello World Fucntion
+function greet (firstName, lastName){ //parameters
+  console.log('Hello' + firstName + "World" + lastName);
 }
 
-let MeganSpence = {
-  firstName : "Megan",
+function square (number){
+  return number*number;
 }
 
+//firstName, lastName, age, ageAfraid, hair, male, female, confidence
+YaqubIbrahim = ["Yaqub", "Ibrahim", 16, 29, "afro", true, false, null];
+MeganSpence = ["Megan", "Spence", 14, null, true, false, true,];
 
-// priting out the entire object
-
-console.log(YaqubIbrahim);
-console.log(MeganSpence);
-
-//print out first names only
-console.log(MarkMercer.firstName);
-console.log(MeganSpence.firstName);
-//console.log("Am I male? " + male);
+//Calling functions, with arguments
+greet (YaqubIbrahim[0], YaqubIbrahim[1]);
+greet (MeganSpence[0], MeganSpence[1]);
+greet (square(YaqubIbrahim[2]), MeganSpence[2]);

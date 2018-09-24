@@ -7,11 +7,18 @@ let YaqubIbrahim = {
   ageAfraid : 29,
   hair : "afro",
   male : true,
+  female: false,
   confidence : null,
 }
 
 let MeganSpence = {
-  firstName : "Megan",
+  firstName: "Megan",
+  lastName: "Spence",
+  age: 14,
+  ageAfraid: null,
+  hair: true,
+  male: false,
+  female: true,
 }
 
 
@@ -21,6 +28,6 @@ console.log(YaqubIbrahim);
 console.log(MeganSpence);
 
 //print out first names only
-console.log(MarkMercer.firstName);
+console.log(YaqubIbrahim.firstName);
 console.log(MeganSpence.firstName);
 //console.log("Am I male? " + male);
