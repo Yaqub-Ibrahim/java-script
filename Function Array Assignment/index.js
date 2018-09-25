@@ -1,6 +1,9 @@
 console.log("Using array-data-strucutre, write a function(s) to switch the content of both arrays in the second element ... the last name.")
 
 // Your Function Goes here
+function rewriteLastNameMercer (lastName1, lastName2) {
+ return MarkMercer [1]
+}
 
 
 let MarkMercer = [];
