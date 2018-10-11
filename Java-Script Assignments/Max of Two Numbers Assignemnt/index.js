@@ -1,4 +1,4 @@
-let numberA= 8; //change number here to any value you desire
+let numberA= 4; //change number here to any value you desire
 let numberB=5;  //change number here to any value you desire
 
 if (numberA > numberB)

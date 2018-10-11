@@ -1,0 +1,55 @@
+operator class notes-
+
+-parameters and arguments will be a struggle
+
+-Function parameters are the names listed in the function definition.
+
+-Function arguments are the real values passed to (and received by) the function.
+
+-Ex:functionName(parameter1, parameter2, parameter3) {
+    code to be executed
+}
+
+  
+
+-we made a parameter for skips, Ex: skipCount *=3.
+
+-we start skip counting at 15, due to the code "let skipCount = 15;"
+
+-in 
+  "let number = 0;
+  for (let i=1; i<=5; i++){
+    skipCount*= 3;
+    console.log(skipCount);
+  }"
+
+"skipCount*=3;" we can choose what we skip count by, you can also change the "*" to "+" or "/" depending on what
+operation you want to use.
+
+"i<=5;" let's you choose how many times you want to skip count by
+
+"let number = 0;" let's you choose which number to start at
+
+first you must choose the operation and what you want to skip count by, then how many times you want to do it,
+then what you start at.
+
+-"console.log(1==1);
+console.log('1'==1);
+console.log('1'===1);"
+
+on the second line of code == makes the number after it a string, but in line 3 because there's 3 = signs, it cant't be a
+string. in the first line it's just comparing numbers so there is no string creation because there was no string before.
+
+
+
+
+-"while (number <= 100) {
+  let number = 0;
+  console.log(number);
+  number +=5;
+
+}"
+
+is an infinite loop because  number is 0, then it gets printed to log, then gets added by 5 to equal 5, then equals to
+zero once again. it is why "let number" should always go first
+

@@ -1,0 +1,4 @@
+Module shit
+
+15/2= 7.5. Which can be written as 7 1/2. Modules will return the numerator. So 15%2 would create 1.
+if it was 16%2 it would create 0, because 16/2= 8 0/2.

@@ -1,0 +1,6 @@
+-we put functions at the begining for java script
+
+-return means palce this value in places where the function is called and dont run the rest of the function
+
+-constants are for security purposes, because java script can be changed really easily, get into habit of using const
+more often.

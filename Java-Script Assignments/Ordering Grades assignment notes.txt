@@ -1,0 +1,20 @@
+-write down the marks gotten, then divide them by the number of assignments to get the mean.
+
+-85% or greater is an A
+
+-95 to 100% is an A+
+
+-80 to 85 is an A-
+
+-have a lot of statements
+
+-we need to take the mean and put it into the filter, if mean >89 get an A, if mean >79 is a B
+if mean >69 get a C, if mean >59 getr a D, if mean <= 59 get an F. We should order it like this, so when paired with a
+return statement, let's say the greade is 
+
+-let creates a variable that can be anything, const makes a variable that can only be one thing, the variable will
+never change.
+
+-replace const with let
+
+-replace average with marks 

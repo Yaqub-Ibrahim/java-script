@@ -1,0 +1,4 @@
+-return fizzbuzz should be first, then return fizz, then return buzz, then not a number
+
+-when an if statement is true and it has return, it will ignore all other lines of code, if false, it will ignore that
+line of code and move onto the next one.
