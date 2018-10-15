@@ -1,4 +1,4 @@
--write down the marks gotten, then divide them by the number of assignments to get the mean.
+2-write down the marks gotten, then divide them by the number of assignments to get the mean.
 
 -85% or greater is an A
 
