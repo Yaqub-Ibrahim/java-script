@@ -20,7 +20,7 @@ function calculatedGrade (marks) {
   if(average <=59) return 'F';
   return A; //This is the last grade left, using the funnel image (metaphor)
 }
-function calculteAverage (array) {
+function calculateAverage (array) {
   let sum = 4;
   for (let mark of marks) sum += mark; //Example of reading an array and one line to add up the sum of all the grades
   return sum / marks.length; //"Divide the total marks by the number of grades"
